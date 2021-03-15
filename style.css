@@ -1,0 +1,83 @@
+input {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.cont {
+    overflow: hidden;
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 15px;
+}
+
+.form {
+    position: relative;
+    width: 540px;
+    height: 80%;
+    padding: 50px 30px;
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+    transition: -webkit-transform .5s ease-in-out;
+    transition: transform .5s ease-in-out;
+    transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+}
+
+h2 {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    width: 260px;
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+label span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #505f75;
+    text-transform: uppercase;
+}
+
+input {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.sobre {
+    position: relative;
+    left: 300px;
+}
+
+.contato {
+    position: relative;
+    left: 600px;
+}
+
+.home {
+    position: relative;
+    left: 900px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    top: 900px;
+    text-align: center;
+}
